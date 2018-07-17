@@ -1,5 +1,5 @@
 Timestamp as a Service
-##A Timestamp microservice project for FreeCodeCamp
+
 ### api endpoint is /api/timestamp
 #### ^ Will generate a timestamp from _now_
 ### accepts most date formats: /api/timestamp/2018-7-17
