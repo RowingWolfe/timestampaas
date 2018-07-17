@@ -4,6 +4,7 @@ const express = require('express');
 const moment = require('moment');
 const app = express();
 
+const port = 3000;
 let time = moment();
 const dateFormat = "dddd, M/D/YYYY H:mm:ss a";
 
@@ -25,4 +26,4 @@ app.get('/api/timestamp/:timestring/', (req, res, next)=> {
     }
 });
 
-app.listen(3000);
+app.listen(port);
